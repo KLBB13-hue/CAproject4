@@ -1,0 +1,22 @@
+{
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/include",
+    "${workspaceFolder}/src",
+    "${env:USERPROFILE}/.platformio/packages/framework-gd32vf103-sdk/GD32VF103_standard_peripheral",
+    "${env:USERPROFILE}/.platformio/packages/framework-gd32vf103-sdk/GD32VF103_standard_peripheral/Include",
+    "${env:USERPROFILE}/.platformio/packages/framework-gd32vf103-sdk/GD32VF103_usbfs_driver",
+    "${env:USERPROFILE}/.platformio/packages/framework-gd32vf103-sdk/GD32VF103_usbfs_driver/Include",
+    "${env:USERPROFILE}/.platformio/packages/framework-gd32vf103-sdk/RISCV/drivers",
+    "${env:USERPROFILE}/.platformio/packages/framework-gd32vf103-sdk/RISCV/env_Eclipse",
+    "${env:USERPROFILE}/.platformio/packages/framework-gd32vf103-sdk/RISCV/stubs",
+    "${env:USERPROFILE}/.platformio/packages/toolchain-gd32v/riscv-nuclei-elf/include"
+  ],
+  "C_Cpp.default.defines": [
+    "PLATFORMIO=60114",
+    "USE_STDPERIPH_DRIVER",
+    "HXTAL_VALUE=8000000U"
+  ],
+  "C_Cpp.default.cStandard": "gnu11",
+  "C_Cpp.default.cppStandard": "gnu++17",
+  "C_Cpp.default.intelliSenseMode": "windows-gcc-x64"
+}

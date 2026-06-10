@@ -1,0 +1,16 @@
+.pio/
+.idea/
+.sixth/
+
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+
+.vscode/.browse.c_cpp.db*
+.vscode/ipch/
+
+Thumbs.db
+.DS_Store
